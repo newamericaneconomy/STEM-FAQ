@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.scss","styles.css"],"names":[],"mappings":"AAAA,KACE,eAAA,CACA,eAAA,CACA,eCCF","file":"styles.css","sourcesContent":["body {\n  background: blue;\n  font-size: 100px;\n  font-size: 200px;\n}\n","body {\n  background: blue;\n  font-size: 100px;\n  font-size: 200px;\n}"]}
