@@ -41,7 +41,11 @@ function imageTask() {
 }
 
 function browsersyncServe(cb) {
-  browsersync.init({});
+  browsersync.init({
+    server: {
+      baseDir: "./",
+    },
+  });
   cb();
 }
 

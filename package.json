@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tronish1189/STEM-FAQ.git"
+    "url": "git+https://github.com/newamericaneconomy/STEM-FAQ.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tronish1189/STEM-FAQ/issues"
+    "url": "https://github.com/newamericaneconomy/STEM-FAQ/issues"
   },
-  "homepage": "https://github.com/tronish1189/STEM-FAQ#readme",
+  "homepage": "https://github.com/newamericaneconomy/STEM-FAQ#readme",
   "dependencies": {
     "bootstrap": "^5.1.3"
   },
