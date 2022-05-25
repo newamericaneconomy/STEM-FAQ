@@ -1,0 +1,14 @@
+.modal {
+  &-dialog {
+    max-width: 960px;
+  }
+
+  &-title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  &-body {
+    font-size: 1.125rem;
+  }
+}

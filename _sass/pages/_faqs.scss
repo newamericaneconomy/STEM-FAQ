@@ -1,0 +1,33 @@
+.faqs {
+  &__content {
+    margin: 5rem 0;
+  }
+
+  &__instructions {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.filter {
+  &__title {
+    font-size: 2rem;
+  }
+}
+
+.nav-pills .nav-link {
+  border-top: 3px solid $c-grey-1;
+  border-radius: 0;
+  text-align: left;
+  margin-bottom: 2rem;
+  font-size: 1.25rem;
+  color: $c-grey-1;
+  padding-left: 0;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: transparent;
+  color: $success;
+  border-color: $success;
+}
