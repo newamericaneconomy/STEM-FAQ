@@ -3,13 +3,21 @@
     background: transparent;
     border: none;
     border-bottom: 1px solid $secondary;
+    position: relative;
   }
   &-button {
     background: transparent;
     box-shadow: none;
     color: black;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     padding-left: 0;
+    position: static;
+
+    &::after {
+      position: absolute;
+      right: 8px;
+      bottom: 16px;
+    }
 
     &:not(.collapsed) {
       box-shadow: none;
@@ -31,5 +39,6 @@
     padding-top: 0;
     padding-left: 0;
     font-size: 1.25rem;
+    padding-bottom: 4rem;
   }
 }

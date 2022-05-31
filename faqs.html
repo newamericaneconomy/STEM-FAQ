@@ -1,5 +1,5 @@
 ---
-title: STEM FAQs
+title: FAQs - Federal STEM Initiatives Practical Guides and FAQs
 ---
 {% include header.html %}
 
@@ -33,23 +33,23 @@ title: STEM FAQs
                 <div class="col-10">
                     <div class="row">
                         <p class="fw-bold filter__title">Which of the following best describes you?</p>
-                        <div class="col-3 text-center">
+                        <div class="col-12 col-md-3 mb-4 mb-md-0 text-center">
                             <a href="#" class="btn btn--white d-block w-100" data-filter-type="filter"
                                 data-filter-target="data-filter-tag-program-sponsors"
-                                data-filter-selected="false">Program Sponsors</a>
+                                data-filter-selected="false">Program Sponsor</a>
                         </div>
-                        <div class="col-3 text-center">
+                        <div class="col-12 col-md-3 mb-4 mb-md-0 text-center">
                             <a href="#" class="btn btn--white d-block w-100"
                                 data-filter-target="data-filter-tag-program-hosts" data-filter-type="filter"
                                 data-filter-selected="false">Program
-                                Hosts</a>
+                                Host</a>
                         </div>
-                        <div class="col-3 text-center">
+                        <div class="col-12 col-md-3 mb-4 mb-md-0 text-center">
                             <a href="#" class="btn btn--white d-block w-100"
                                 data-filter-target="data-filter-tag-program-participants" data-filter-type="filter"
-                                data-filter-selected="false">Program Participants</a>
+                                data-filter-selected="false">Program Participant</a>
                         </div>
-                        <div class="col-3 text-center">
+                        <div class="col-12 col-md-3 mb-4 mb-md-0 text-center">
                             <a href="#" class="btn btn--white d-block w-100 selected" data-filter-target="all"
                                 data-filter-type="filter" data-filter-selected="true">All</a>
                         </div>
@@ -62,27 +62,28 @@ title: STEM FAQs
                 data-aos-once="true">
                 <div class="col-1"></div>
                 <div class="col-3">
-                    <span class="small faqs__instructions">Select Initiative to Learn More</span>
+                    <span class="small faqs__instructions">Select Initiative to Learn More. <span
+                            class="small faqs__mobileInstructions">Scroll to see all options.</span></span>
                     <div class="nav faqs__tabs flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
                         aria-orientation="vertical">
                         <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
                             data-bs-target="#guide1" type="button" role="tab" aria-controls="v-pills-home"
                             aria-selected="true">Guide One: Early Career STEM Research Initiative</button>
-                        <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
-                            data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
-                            aria-selected="false">Guide Two: STEM OPT: New Fields of Study</button>
+                        <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#guide2"
+                            type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Guide Two:
+                            STEM OPT: New Fields of Study</button>
                         <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
-                            data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+                            data-bs-target="#guide3" type="button" role="tab" aria-controls="v-pills-messages"
                             aria-selected="false">Guide Three: O-1 Visa Policy Guidance</button>
                         <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
-                            data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
+                            data-bs-target="#guide4" type="button" role="tab" aria-controls="v-pills-settings"
                             aria-selected="false">Guide Four: EB-2 National Interest Waiver</button>
                         <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
-                            data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
+                            data-bs-target="#guide5" type="button" role="tab" aria-controls="v-pills-settings"
                             aria-selected="false">Guide Five: J-1 Extension of Academic Training</button>
                         <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
-                            data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
-                            aria-selected="false">Additional Resources</button>
+                            data-bs-target="#additionalResources" type="button" role="tab"
+                            aria-controls="v-pills-settings" aria-selected="false">Additional Resources</button>
                     </div>
                 </div>
                 <div class="col-1"></div>
@@ -90,7 +91,7 @@ title: STEM FAQs
                     <div class="d-flex align-items-start">
                         <div class="tab-content" id="v-pills-tabContent">
                             <div class="tab-pane fade show active w-100" id="guide1" role="tabpanel"
-                                aria-labelledby="v-pills-home-tab">
+                                aria-labelledby="guide-1-tab">
                                 <div class="accordion" id="accordionExample" data-faq-content="guide1">
                                     <a data-bs-toggle="modal" data-bs-target="#modalGuide1" href="#">Click to see guide
                                         overview <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -102,12 +103,16 @@ title: STEM FAQs
                                         </svg></a>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
-                                aria-labelledby="v-pills-profile-tab">...</div>
-                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
-                                aria-labelledby="v-pills-messages-tab">...</div>
-                            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
-                                aria-labelledby="v-pills-settings-tab">...</div>
+                            <div class="tab-pane fade" id="guide2" role="tabpanel" aria-labelledby="guide-2-tab">...
+                            </div>
+                            <div class="tab-pane fade" id="guide3" role="tabpanel" aria-labelledby="guide-3-tab">...
+                            </div>
+                            <div class="tab-pane fade" id="guide4" role="tabpanel" aria-labelledby="guide-4-tab">...
+                            </div>
+                            <div class="tab-pane fade" id="guide5" role="tabpanel" aria-labelledby="guide-5-tab">...
+                            </div>
+                            <div class="tab-pane fade" id="additionalResources" role="tabpanel"
+                                aria-labelledby="additional-resources-tab">...</div>
                         </div>
                     </div>
 

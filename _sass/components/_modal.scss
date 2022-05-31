@@ -12,3 +12,12 @@
     font-size: 1.125rem;
   }
 }
+
+.btn-close {
+  background: none;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  font-size: 2rem;
+  color: $primary;
+}
