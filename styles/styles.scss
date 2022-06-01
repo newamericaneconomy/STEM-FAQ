@@ -20,9 +20,9 @@ $c-grey-1: rgba(0, 0, 0, 0.6);
 // );
 
 // // Include remainder of required Bootstrap stylesheets
-// @import "../node_modules/bootstrap/scss/mixins";
-// @import "../node_modules/bootstrap/scss/variables";
-// @import "../node_modules/bootstrap/scss/root";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/root";
 
 // // Include any optional Bootstrap CSS as needed
 // @import "../node_modules/bootstrap/scss/utilities";
