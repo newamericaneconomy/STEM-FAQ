@@ -34,7 +34,7 @@ plugins:
 
 sass:
   style: compact
-  sass_dir: _sass
+  sass_dir: ./_sass
 
 # Build settings
 theme: minima
