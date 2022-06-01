@@ -37,7 +37,7 @@ sass:
   sass_dir: ./_sass
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
 # Exclude from processing.
