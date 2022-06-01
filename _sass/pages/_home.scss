@@ -17,6 +17,10 @@
 
   &__title {
     font-size: 4rem;
+
+    @include media-breakpoint-down(md) {
+      font-size: 2.5rem;
+    }
   }
 
   &__subtitle {
