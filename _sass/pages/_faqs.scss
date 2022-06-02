@@ -13,6 +13,12 @@
     }
   }
 
+  &__text {
+    @include media-breakpoint-down(md) {
+      text-align: center;
+    }
+  }
+
   &__instructions {
     display: block;
     margin-bottom: 0.5rem;
@@ -64,4 +70,8 @@
   background-color: transparent;
   color: $success;
   border-color: $success;
+}
+
+.guide-overview-link {
+  font-size: 1.25rem;
 }
