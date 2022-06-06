@@ -10,7 +10,7 @@ const faq_guide_3_content = document.querySelector('[data-faq-content="guide3"]'
 const faq_guide_4_content = document.querySelector('[data-faq-content="guide4"]');
 
 // Function to create accordion element
-function faq_create_accordion_element(id, questionContent, answerContent) {
+function faq_create_accordion_element(id, questionContent, answerContent, footnotes) {
 
     // Create an id for use when implementing functionality for accordions
     var string = 'faq' + id;
@@ -52,6 +52,14 @@ function faq_create_accordion_element(id, questionContent, answerContent) {
     accordion_body.innerHTML = answerContent;
     accordion_content.append(accordion_body);
 
+    //Create accordion footnotes
+    if(footnotes != ''){
+        var accordion_footnote = document.createElement('span');
+        accordion_footnote.className = "accordion-footnote";
+        accordion_footnote.innerHTML = footnotes;
+        accordion_body.append(accordion_footnote);
+    }
+
     return accordion_item;
 }
 
@@ -61,10 +69,11 @@ function faq_populate_accordion_data(array){
         var id = item["ID"];
         let question = item["question"];
         let answer = item["answer"];
+        let footnotes = item["footnotes"];
         const is_program_sponsors = item["program sponsors"];
         const is_program_hosts = item["program hosts"];
         const is_program_participants = item["participants"];
-        var accordion = faq_create_accordion_element(id, question, answer);
+        var accordion = faq_create_accordion_element(id, question, answer, footnotes);
 
         if (is_program_sponsors == "TRUE") {
             accordion.setAttribute("data-filter-tag-program-sponsors", "true")

@@ -3,7 +3,7 @@ let faq_array = [
     ID: 1,
     question: "Is there a business size in mind for this program?",
     answer:
-      "There is no restriction on the <a href='https://www.google.com'>size of the business</a>, and in fact the Administration is focused on engaging SMEs in this initiative as they often are less aware of these types of programs and opportunities. They don’t want it to just be the “usual suspects.” Large companies typically have the means to use internal resources on global mobility whereas smaller businesses don’t have that in-house expertise. This program is an example of how foreign policy can be brought to everyday Americans.",
+      "There is no restriction on the size of the business, and in fact the Administration is focused on engaging SMEs in this initiative as they often are less aware of these types of programs and opportunities. They don’t want it to just be the “usual suspects.” Large companies typically have the means to use internal resources on global mobility whereas smaller businesses don’t have that in-house expertise. This program is an example of how foreign policy can be brought to everyday Americans.",
     guide1: "TRUE",
     guide2: "",
     guide3: "",
@@ -12,6 +12,7 @@ let faq_array = [
     "program sponsors": "TRUE",
     "program hosts": "",
     participants: "",
+    footnotes: "",
   },
   {
     ID: 2,
@@ -27,6 +28,7 @@ let faq_array = [
     "program sponsors": "TRUE",
     "program hosts": "",
     participants: "",
+    footnotes: "",
   },
   {
     ID: 3,
@@ -41,6 +43,7 @@ let faq_array = [
     "program sponsors": "",
     "program hosts": "",
     participants: "TRUE",
+    footnotes: "",
   },
   {
     ID: 4,
@@ -55,6 +58,7 @@ let faq_array = [
     "program sponsors": "",
     "program hosts": "",
     participants: "TRUE",
+    footnotes: "",
   },
   {
     ID: 5,
@@ -69,6 +73,7 @@ let faq_array = [
     "program sponsors": "",
     "program hosts": "",
     participants: "TRUE",
+    footnotes: "",
   },
   {
     ID: 6,
@@ -83,6 +88,7 @@ let faq_array = [
     "program sponsors": "",
     "program hosts": "",
     participants: "TRUE",
+    footnotes: "",
   },
   {
     ID: 7,
@@ -96,6 +102,7 @@ let faq_array = [
     "program sponsors": "",
     "program hosts": "",
     participants: "TRUE",
+    footnotes: "",
   },
   {
     ID: 8,
@@ -110,6 +117,7 @@ let faq_array = [
     "program sponsors": "",
     "program hosts": "TRUE",
     participants: "",
+    footnotes: "",
   },
   {
     ID: 9,
@@ -124,6 +132,7 @@ let faq_array = [
     "program sponsors": "",
     "program hosts": "TRUE",
     participants: "",
+    footnotes: "",
   },
   {
     ID: 10,
@@ -139,6 +148,7 @@ let faq_array = [
     "program sponsors": "",
     "program hosts": "TRUE",
     participants: "",
+    footnotes: "",
   },
   {
     ID: 11,
@@ -153,9 +163,10 @@ let faq_array = [
     "program sponsors": "",
     "program hosts": "TRUE",
     participants: "",
+    footnotes: "",
   },
   {
-    ID: 12,
+    ID: "",
     question:
       "What is the timeline a company should anticipate from start to finish for the process of bringing over a J-1 exchange visitor?",
     answer:
@@ -168,9 +179,10 @@ let faq_array = [
     "program sponsors": "",
     "program hosts": "TRUE",
     participants: "",
+    footnotes: "",
   },
   {
-    ID: 13,
+    ID: "",
     question:
       "Is the requirement to return home for two-years in place for this program?",
     answer:
@@ -183,9 +195,10 @@ let faq_array = [
     "program sponsors": "",
     "program hosts": "TRUE",
     participants: "",
+    footnotes: "",
   },
   {
-    ID: 14,
+    ID: "",
     question:
       "Is it possible to bring someone from within the company from one office abroad to another in the U.S. through this program?",
     answer:
@@ -198,9 +211,10 @@ let faq_array = [
     "program sponsors": "",
     "program hosts": "TRUE",
     participants: "",
+    footnotes: "",
   },
   {
-    ID: 15,
+    ID: "",
     question:
       "Is there a limit to visas an individual company can apply for or an annual fiscal cap for the program generally?",
     answer:
@@ -213,9 +227,10 @@ let faq_array = [
     "program sponsors": "",
     "program hosts": "TRUE",
     participants: "",
+    footnotes: "",
   },
   {
-    ID: 16,
+    ID: "",
     question:
       "If a university has a J-1 program but they’re not authorized as a sponsor in all categories, could they put forth a plan to the State Dept for redesignation?",
     answer: "Yes.",
@@ -227,9 +242,10 @@ let faq_array = [
     "program sponsors": "TRUE",
     "program hosts": "",
     participants: "",
+    footnotes: "",
   },
   {
-    ID: 17,
+    ID: "",
     question:
       "If a university has a professor in J-1 status already, can that person add STEM research to their existing work?",
     answer:
@@ -242,9 +258,10 @@ let faq_array = [
     "program sponsors": "TRUE",
     "program hosts": "",
     participants: "",
+    footnotes: "",
   },
   {
-    ID: 18,
+    ID: "",
     question: "Is there an age range or age cutoff for the program?",
     answer:
       "It depends on the category; they each have their own requirements. Most don’t have age restrictions, but have qualification restrictions. A J-1 intern must be a current university student at a foreign university that wants to come for up to 12 months during school or right after graduation. A trainee already has a four-year degree from a foreign university and at least one year of related work experience outside the United States or five years of experience in their field outside the United States. They can come for 18 months. Research scholars have no age restrictions and can come for five years.",
@@ -256,9 +273,10 @@ let faq_array = [
     "program sponsors": "",
     "program hosts": "",
     participants: "TRUE",
+    footnotes: "",
   },
   {
-    ID: 19,
+    ID: "",
     question:
       "What is the difference between F-1, J-1, and H-1B when it comes to the financial element?",
     answer:
@@ -271,9 +289,10 @@ let faq_array = [
     "program sponsors": "TRUE",
     "program hosts": "",
     participants: "",
+    footnotes: "",
   },
   {
-    ID: 20,
+    ID: "",
     question:
       "There are immense backlogs at U.S. embassies around the world with regard to visa processing. It can take up to a year to get an appointment from the day you request it. How is that managed in this process?",
     answer:
@@ -286,9 +305,10 @@ let faq_array = [
     "program sponsors": "",
     "program hosts": "",
     participants: "TRUE",
+    footnotes: "",
   },
   {
-    ID: 21,
+    ID: "",
     question: "Does this program apply to the skilled trades?",
     answer:
       "It depends on what individuals are coming in for—there could be STEM elements applicable to trainees or interns. This is why filling out a Statement of Interest is important to see if a potential host company would be eligible.",
@@ -300,9 +320,10 @@ let faq_array = [
     "program sponsors": "TRUE",
     "program hosts": "TRUE",
     participants: "TRUE",
+    footnotes: "",
   },
   {
-    ID: 22,
+    ID: "",
     question:
       "What is the scope of study/ or research a research exchange visitor could be doing?",
     answer:
@@ -315,9 +336,10 @@ let faq_array = [
     "program sponsors": "TRUE",
     "program hosts": "TRUE",
     participants: "TRUE",
+    footnotes: "",
   },
   {
-    ID: 23,
+    ID: "",
     question:
       "What qualifies as “research” for the purposes of this program and how is it distinguished from work that would be typically done on an H-1B visa?",
     answer:
@@ -330,9 +352,10 @@ let faq_array = [
     "program sponsors": "TRUE",
     "program hosts": "TRUE",
     participants: "TRUE",
+    footnotes: "",
   },
   {
-    ID: 24,
+    ID: "",
     question:
       "Some chamber members have J-1 researchers coming through the program but are prohibiting the chamber from reaching out to them directly to welcome them into the community. Is this a policy of the program?",
     answer:
@@ -345,5 +368,6 @@ let faq_array = [
     "program sponsors": "",
     "program hosts": "TRUE",
     participants: "",
+    footnotes: "",
   },
 ];
