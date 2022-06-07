@@ -79,6 +79,11 @@
   }
 
   &__content-heading {
-    min-height: 72px;
+    margin-bottom: 0.5rem;
+  }
+
+  &__content-heading,
+  &__content-text {
+    font-size: 1.25rem;
   }
 }
