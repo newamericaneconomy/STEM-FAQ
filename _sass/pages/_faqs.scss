@@ -72,6 +72,21 @@
   border-color: $success;
 }
 
-.guide-overview-link {
-  font-size: 1.25rem;
+.guide-overview {
+  &-wrapper {
+    margin-bottom: 3rem;
+  }
+  &-link {
+    font-size: 1.25rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    background: $primary;
+    transition: 250ms all;
+
+    &:hover {
+      color: black;
+      background: $secondary;
+    }
+  }
 }

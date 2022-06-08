@@ -72,6 +72,14 @@ p {
   font-size: 1.5rem;
 }
 
+li {
+  font-size: 1.25rem;
+}
+
+ul {
+  padding-left: 1rem;
+}
+
 .page-title {
   border-bottom: 4px solid $primary;
   padding-bottom: 2rem;
@@ -84,6 +92,10 @@ p {
 
 .page__header {
   margin-top: 3rem;
+
+  .page-title {
+    font-size: 3rem;
+  }
 }
 
 .page__text p {
