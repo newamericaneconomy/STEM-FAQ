@@ -1,0 +1,28 @@
+.modal {
+  &-dialog {
+    max-width: 960px;
+  }
+
+  &-title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  &-body {
+    font-size: 1.125rem;
+  }
+
+  &-endnotes {
+    font-size: 0.875rem;
+    margin-top: 1rem;
+  }
+}
+
+.btn-close {
+  background: none;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  font-size: 2rem;
+  color: $primary;
+}

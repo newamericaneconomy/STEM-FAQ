@@ -1,0 +1,124 @@
+---
+---
+
+// Include Bootstrap functions
+@import "../node_modules/bootstrap/scss/functions";
+
+// Override default variables here
+$primary: #6163ed;
+$secondary: #87d9f7;
+$success: #38387d;
+$c-grey: #efefef;
+$c-grey-1: rgba(0, 0, 0, 0.6);
+
+// $container-max-widths: (
+//   sm: 540px,
+//   md: 720px,
+//   lg: 960px,
+//   xl: 1140px,
+//   xxl: 1280px,
+// );
+
+// // Include remainder of required Bootstrap stylesheets
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/root";
+
+// // Include any optional Bootstrap CSS as needed
+@import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/helpers";
+@import "../node_modules/bootstrap/scss/transitions";
+@import "../node_modules/bootstrap/scss/nav";
+@import "../node_modules/bootstrap/scss/accordion";
+@import "../node_modules/bootstrap/scss/modal";
+
+// // Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
+@import "../node_modules/bootstrap/scss/utilities/api";
+
+body {
+  background: $c-grey;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+button,
+div {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h1 {
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+li {
+  font-size: 1.25rem;
+}
+
+ul {
+  padding-left: 1rem;
+}
+
+.page-title {
+  border-bottom: 4px solid $primary;
+  padding-bottom: 2rem;
+  font-size: 4rem;
+
+  @media (max-width: 960px) {
+    font-size: 2rem;
+  }
+}
+
+.page__header {
+  margin-top: 3rem;
+
+  .page-title {
+    font-size: 3rem;
+  }
+}
+
+.page__text p {
+  font-size: 1.25rem;
+}
+
+.accordion-item {
+  display: none;
+  height: 0;
+  overflow: hidden;
+  transition: height 350ms ease-in-out;
+}
+
+.accordion-item.is-visible {
+  display: block;
+  height: auto;
+}
+
+@import "components/buttons";
+@import "components/accordions";
+@import "components/modal";
+
+@import "layout/footer";
+
+@import "pages/home";
+@import "pages/faqs";
