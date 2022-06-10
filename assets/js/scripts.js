@@ -8,6 +8,7 @@ const faq_guide_1_content = document.querySelector('[data-faq-content="guide1"]'
 const faq_guide_2_content = document.querySelector('[data-faq-content="guide2"]');
 const faq_guide_3_content = document.querySelector('[data-faq-content="guide3"]');
 const faq_guide_4_content = document.querySelector('[data-faq-content="guide4"]');
+const faq_guide_5_content = document.querySelector('[data-faq-content="guide5"]');
 
 // Function to create accordion element
 function faq_create_accordion_element(id, questionContent, answerContent, footnotes) {
@@ -70,17 +71,17 @@ function faq_populate_accordion_data(array){
         let question = item["question"];
         let answer = item["answer"];
         let footnotes = item["footnotes"];
-        const is_program_sponsors = item["program sponsors"];
-        const is_program_hosts = item["program hosts"];
+        const is_institutions = item["institutions"];
+        const is_employers = item["employers"];
         const is_program_participants = item["participants"];
         var accordion = faq_create_accordion_element(id, question, answer, footnotes);
 
-        if (is_program_sponsors == "TRUE") {
-            accordion.setAttribute("data-filter-tag-program-sponsors", "true")
+        if (is_institutions == "TRUE") {
+            accordion.setAttribute("data-filter-tag-institutions", "true")
         }
 
-        if (is_program_hosts == "TRUE") {
-            accordion.setAttribute("data-filter-tag-program-hosts", "true")
+        if (is_employers == "TRUE") {
+            accordion.setAttribute("data-filter-tag-employers", "true")
         }
 
         if (is_program_participants == "TRUE") {
@@ -102,6 +103,11 @@ function faq_populate_accordion_data(array){
         if (item["guide4"] == "TRUE") {
             faq_guide_4_content.append(accordion)
         }
+
+        if (item["guide5"] == "TRUE") {
+            faq_guide_5_content.append(accordion)
+        }
+
     });
 }
 faq_populate_accordion_data(faq_array)
@@ -144,6 +150,7 @@ function faq_filter_on_click() {
                 filter_items.forEach(item => {
                     if (item.attributes[filter_category] != undefined) {
                         if (item.attributes[filter_category].value == "true") {
+                            console.log("Hello we're here!");
                             show(item);
                         }
                     } else {
