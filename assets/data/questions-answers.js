@@ -2,9 +2,9 @@ let faq_array = [
   {
     ID: 1,
     question:
-      "How can organizations sign up to participate in the J-1 early career STEM initiative?",
+      "How can organizations engage in the J-1 Early Career STEM Research Initiative?",
     answer:
-      "The Department of State (DOS) invites prospective host companies and already designated sponsors to sign the respective “STEM Statement of Interest” and email a copy to JVisas@state.gov. These statements serve as a mechanism to recognize the STEM initiative’s active partners and allow them to self-identify for participation. However, neither host companies or designated sponsors are required to sign up in this way—they may find opportunities or connections on their own, through their own networks.",
+      'In order for an employer to participate as a host, the employer would need to utilize the services of a program sponsor designated by the Department of State (DOS) or become a designated sponsor. In order for an employer or institution to act as a designated program sponsor, the entity would have to <a href=https://j1visa.state.gov/sponsors/become-a-sponsor/how-to-apply/" target=”_blank”>file an application for designation</a> and receive DOS approval.',
     guide1: "TRUE",
     guide2: "",
     guide3: "",
@@ -28,15 +28,15 @@ let faq_array = [
   {
     ID: 2,
     question:
-      "Many businesses are interested but don’t know how to get started. What is the process for employers once they fill out the “STEM Statement of Interest”?",
+      "In order to host a J-1 participant, does an employer have to be designated by the Department of State",
     answer:
-      'After a host employer submits the STEM Statement of Interest, <a href=https://j1visa.state.gov/" target=”_blank”>BridgeUSA</a> will connect the host with a program sponsor. If the program sponsor determines that the host and the candidate meet the program requirements, then the program sponsor will provide a Statement of Eligibility (DS-2019) which allows the candidate to apply to the U.S. embassy in their country for an exchange visitor (J-1) visa. If the candidate is an academic who has previously traveled to the United States, they may not need an in-person interview. To learn more about BridgeUSA, visit https://j1visa.state.gov/ or see Additional Resources.',
+      'No, employers can use the services of an already designated program sponsor authorized to act as an “umbrella” organization for interested employers, such as <a href=https://j1visa.state.gov/programs/early-career-stem-research-initiative/#get-started" target=”_blank”>designated program sponsors that have expressed interest in the Early Career STEM Research Initiative</a>. Host companies may also find opportunities or connections on their own, through their own networks.',
     guide1: "TRUE",
     guide2: "",
     guide3: "",
     guide4: "",
     guide5: "",
-    institutions: "",
+    institutions: "TRUE",
     employers: "TRUE",
     individuals: "",
     footnotes: "",
@@ -53,6 +53,82 @@ let faq_array = [
   },
   {
     ID: 3,
+    question: "What is the role of organizations?",
+    answer:
+      "DOS invites prospective host companies and already-designated sponsors to consider the J-1 Early Career STEM Research Initiative. Many exchange programs, institutions of higher education, individuals, or host companies may already have the connections needed to explore the initiative. For example, a host company can discuss the initiative with a program sponsor, or an institution of higher education can discuss the initiative with local start-up companies. DOS also allows those interested to sign a “STEM Statement of Interest” and email a copy to JVisas@state.gov. These statements serve as a mechanism to recognize the Early Career STEM Research Initiative’s active partners and allow them to self-identify for participation. Neither host companies nor designated sponsors are required to sign up in this way—and they may find opportunities or connections on their own, through their own networks",
+    guide1: "TRUE",
+    guide2: "",
+    guide3: "",
+    guide4: "",
+    guide5: "",
+    institutions: "TRUE",
+    employers: "TRUE",
+    individuals: "",
+    footnotes: "",
+    "": "",
+    __1: "",
+    __2: "",
+    __3: "",
+    __4: "",
+    __5: "",
+    __6: "",
+    __7: "",
+    __8: "",
+    __9: "",
+  },
+  {
+    ID: 4,
+    question: "What is the role of individuals?",
+    answer:
+      "Any individual outside the United States with a university STEM degree who is coming to the United States to conduct, facilitate, or participate in research being conducted by a U.S. company might be able to participate in the Early Career STEM Research Initiative. No specific level of education or expertise is required. There may be situations in which noncitizens in the United States may qualify, such as individuals completing STEM post-docs at U.S. universities who are J-1 research scholars whose university can change the “site of activity” to a host company.",
+    guide1: "TRUE",
+    guide2: "",
+    guide3: "",
+    guide4: "",
+    guide5: "",
+    institutions: "",
+    employers: "",
+    individuals: "TRUE",
+    footnotes: "",
+    "": "",
+    __1: "",
+    __2: "",
+    __3: "",
+    __4: "",
+    __5: "",
+    __6: "",
+    __7: "",
+    __8: "",
+    __9: "",
+  },
+  {
+    ID: 5,
+    question:
+      "What is the process for employers once they fill out the “STEM Statement of Interest”?",
+    answer:
+      'In addition to independently discussing the J-1 Early Career STEM Research Initiative with colleagues at exchange program sponsors or institutions of higher education to explore collaboration, a host company could submit a STEM Statement of Interest, after which <a href=https://j1visa.state.gov/" target=”_blank”>BridgeUSA</a> will connect the host with a program sponsor. If the program sponsor determines that the host and the candidate meet the program requirements, then the program sponsor will provide a Statement of Eligibility (DS-2019) that allows the candidate to apply at the U.S. embassy in their country for an exchange visitor (J-1) visa. If the candidate is an academic who has previously traveled to the United States, they may not need an in-person interview. To learn more about BridgeUSA, visit https://j1visa.state.gov/ or see Additional Resources.',
+    guide1: "TRUE",
+    guide2: "",
+    guide3: "",
+    guide4: "",
+    guide5: "",
+    institutions: "TRUE",
+    employers: "TRUE",
+    individuals: "",
+    footnotes: "",
+    "": "",
+    __1: "",
+    __2: "",
+    __3: "",
+    __4: "",
+    __5: "",
+    __6: "",
+    __7: "",
+    __8: "",
+    __9: "",
+  },
+  {
+    ID: 6,
     question: "Is there a business size in mind for this program?",
     answer:
       "No, there are no restrictions on business size. The Administration is focused on engaging small and medium-sized enterprises (SMEs) in this initiative because SMEs are often less aware of these types of programs and opportunities. Larger companies tend to have greater internal capacity and resources to support global mobility, whereas smaller businesses often do not have in-house expertise.",
@@ -77,7 +153,7 @@ let faq_array = [
     __9: "",
   },
   {
-    ID: 4,
+    ID: 7,
     question:
       "Do employers need to have existing relationships with potential candidates?",
     answer:
@@ -103,7 +179,7 @@ let faq_array = [
     __9: "",
   },
   {
-    ID: 5,
+    ID: 8,
     question:
       "Where can I find the current list of sponsors? Am I limited to selecting a sponsor from the list?",
     answer:
@@ -129,7 +205,7 @@ let faq_array = [
     __9: "",
   },
   {
-    ID: 6,
+    ID: 9,
     question:
       "Can an employer move a current employee from an office abroad to one in the U.S. through this program?",
     answer:
@@ -155,7 +231,7 @@ let faq_array = [
     __9: "",
   },
   {
-    ID: 7,
+    ID: 10,
     question: "Can chambers serve as sponsors and their members as hosts?",
     answer:
       "If a chamber is interested and has the experience to qualify as a sponsor, yes. But the best role for a chamber is to communicate to its members the opportunity to host exchange visitors. Another possibility for chambers is to help form a consortium of interested company members that bans together and works with a single designated sponsor to bring research scholars to one particular place that serves as an innovation hub.",
@@ -180,7 +256,7 @@ let faq_array = [
     __9: "",
   },
   {
-    ID: 8,
+    ID: 11,
     question:
       "Some chamber members have J-1 research scholars through the program but are prohibiting the chamber from reaching out to the visitors directly to welcome them into the community. Is this a policy of the program?",
     answer:
@@ -206,7 +282,7 @@ let faq_array = [
     __9: "",
   },
   {
-    ID: 9,
+    ID: 12,
     question:
       "Is the requirement to return home for two years in place for this program?",
     answer:
@@ -232,7 +308,7 @@ let faq_array = [
     __9: "",
   },
   {
-    ID: 10,
+    ID: 13,
     question:
       "Is there a limit to the number of visas an individual company can apply for, or an annual fiscal cap for the program generally?",
     answer:
@@ -258,7 +334,7 @@ let faq_array = [
     __9: "",
   },
   {
-    ID: 11,
+    ID: 14,
     question:
       "If a university has a J-1 program but is not authorized as a sponsor in all categories, can it put forth a plan to the State Dept. for redesignation?",
     answer: "Yes.",
@@ -283,7 +359,7 @@ let faq_array = [
     __9: "",
   },
   {
-    ID: 12,
+    ID: 15,
     question:
       "There are lengthy visa processing backlogs at U.S. embassies around the world, and it can take up to a year to get an appointment. How is that managed in this process?",
     answer:
@@ -309,7 +385,7 @@ let faq_array = [
     __9: "",
   },
   {
-    ID: 13,
+    ID: 16,
     question:
       "What qualifies as “research” for the purposes of this program and how is it distinguished from work that would be typically done on an H-1B visa?",
     answer:
@@ -335,7 +411,7 @@ let faq_array = [
     __9: "",
   },
   {
-    ID: 14,
+    ID: 17,
     question:
       'What is the definition of "research" for the J-1 early career STEM initiative?',
     answer:
@@ -361,7 +437,7 @@ let faq_array = [
     __9: "",
   },
   {
-    ID: 15,
+    ID: 18,
     question:
       "Given the shortage of international student and scholar advisers as we emerge from the pandemic, would DOS consider expediting applications for program sponsors to add the J-1 early career STEM research scholar category?",
     answer:
@@ -387,7 +463,7 @@ let faq_array = [
     __9: "",
   },
   {
-    ID: 16,
+    ID: 19,
     question:
       "In the J-1 early career STEM initiative, may a program sponsor charge a fee for sponsorship to the host company?",
     answer:
@@ -413,7 +489,7 @@ let faq_array = [
     __9: "",
   },
   {
-    ID: 17,
+    ID: 20,
     question:
       "Is it a best practice to have a formal contract with the host company beyond the J-1 hosting agreement, similar to co-ops for curricular practical training purposes?",
     answer:
@@ -439,7 +515,7 @@ let faq_array = [
     __9: "",
   },
   {
-    ID: 18,
+    ID: 21,
     question:
       "May a host company sponsor an H-1B temporary work petition or a green card application for a J-1 early career STEM research scholar?",
     answer:
@@ -465,7 +541,7 @@ let faq_array = [
     __9: "",
   },
   {
-    ID: 19,
+    ID: 22,
     question:
       "Could a government entity sponsor an early career J-1 research scholar to work in industry at a research lab?",
     answer:
@@ -491,7 +567,7 @@ let faq_array = [
     __9: "",
   },
   {
-    ID: 20,
+    ID: 23,
     question:
       "Must a J-1 exchange visitor file an I-539 change of status application or travel to a U.S. consulate abroad for a visa interview if transferring within the J-1 research scholar category from a postdoctoral fellowship to a host company?",
     answer:
@@ -517,7 +593,7 @@ let faq_array = [
     __9: "",
   },
   {
-    ID: 21,
+    ID: 24,
     question:
       "Can current J-1 STEM students switch to J-1 research scholar status?",
     answer:
@@ -543,7 +619,7 @@ let faq_array = [
     __9: "",
   },
   {
-    ID: 22,
+    ID: 25,
     question:
       "How long can people in the J-1 “research scholar” category stay in the U.S.?",
     answer: "Up to five years.",
@@ -568,7 +644,7 @@ let faq_array = [
     __9: "",
   },
   {
-    ID: 23,
+    ID: 26,
     question:
       "Is there an age range or age cutoff for the Early Career STEM Research Initiative?",
     answer:
@@ -594,7 +670,7 @@ let faq_array = [
     __9: "",
   },
   {
-    ID: 24,
+    ID: 27,
     question:
       "Can someone be sponsored for the J-1 early career STEM program if that person's highest degree is from the U.S.?",
     answer:
@@ -620,7 +696,7 @@ let faq_array = [
     __9: "",
   },
   {
-    ID: 25,
+    ID: 28,
     question:
       "Do participants need to receive approval from USCIS or consular process  if they are completing a two- to three-year STEM post-doc as a J-1 Research Scholar before changing the site of activity to a company (but pursuing the same or related research)?",
     answer: "No.",
@@ -645,7 +721,7 @@ let faq_array = [
     __9: "",
   },
   {
-    ID: 26,
+    ID: 29,
     question:
       "Will it be made clear that DOS is not vetting specific J-1 programs, but merely making a list publicly available?",
     answer:
@@ -671,7 +747,7 @@ let faq_array = [
     __9: "",
   },
   {
-    ID: 27,
+    ID: 30,
     question:
       "Most J-1 program sponsor organizations will be hesitant to share their client list for public viewing, and will likely make connections on their own. Can a program sponsor utilize the J-1 option without in effect “registering” with BridgeUSA to be matched?",
     answer: "Yes, sponsors are not required to sign up.",
@@ -696,7 +772,7 @@ let faq_array = [
     __9: "",
   },
   {
-    ID: 28,
+    ID: 31,
     question:
       "Can an academic institution charge an internal fee to an outside company for the sponsorship service?",
     answer: "Yes.",
@@ -721,7 +797,7 @@ let faq_array = [
     __9: "",
   },
   {
-    ID: 29,
+    ID: 32,
     question:
       "Regarding the O-1 guidance, can some of the additional suggestions for comparable evidence, such as giving talks, be used to satisfy one of the three required criteria?",
     answer:
@@ -747,7 +823,7 @@ let faq_array = [
     __9: "",
   },
   {
-    ID: 30,
+    ID: 33,
     question:
       "Can interested state or local government agencies submit letters supporting NIW petitions?",
     answer:
@@ -773,7 +849,7 @@ let faq_array = [
     __9: "",
   },
   {
-    ID: 31,
+    ID: 34,
     question: "Are NIW petitions limited to STEM degree holders?",
     answer:
       "No. There is no such statement to that effect. The USCIS examples are illustrations only, and the guidance isn’t limited to STEM. The principles in the NIW guidance should apply beyond STEM fields, such as healthcare workers, entrepreneurs, etc.",
@@ -798,7 +874,7 @@ let faq_array = [
     __9: "",
   },
   {
-    ID: 32,
+    ID: 35,
     question:
       "For those with NIW petitions filed, does USCIS consider an expedite for I-485 adjustment of status applications of a grant awarded that requires permanent residence to accept?",
     answer:
@@ -824,7 +900,7 @@ let faq_array = [
     __9: "",
   },
   {
-    ID: 33,
+    ID: 36,
     question:
       "Regarding the expanded academic training that allows training up to the length of the program (for a maximum of three years), most master’s programs are two years. So when would this new guidance help?",
     answer:

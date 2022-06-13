@@ -73,7 +73,7 @@ function faq_populate_accordion_data(array){
         let footnotes = item["footnotes"];
         const is_institutions = item["institutions"];
         const is_employers = item["employers"];
-        const is_program_participants = item["participants"];
+        const is_program_participants = item["individuals"];
         var accordion = faq_create_accordion_element(id, question, answer, footnotes);
 
         if (is_institutions == "TRUE") {
