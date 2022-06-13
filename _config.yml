@@ -32,6 +32,7 @@ github_username: jekyll
 
 plugins:
   - jekyll-babel
+  - jekyll-redirect-from
 
 sass:
   style: compact
