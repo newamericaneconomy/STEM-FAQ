@@ -571,7 +571,7 @@ let faq_array = [
     question:
       "Must a J-1 exchange visitor file an I-539 change of status application or travel to a U.S. consulate abroad for a visa interview if transferring within the J-1 research scholar category from a postdoctoral fellowship to a host company?",
     answer:
-      "No. The J-1 visa official at each sponsor institution would coordinate the transfer.",
+      "No. A J-1 exchange visitor already in the research scholar category can ask for a change of the site of activity. An I-539 application or travel to a US consulate is not needed.",
     guide1: "TRUE",
     guide2: "",
     guide3: "",
