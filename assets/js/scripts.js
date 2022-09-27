@@ -10,6 +10,27 @@ const faq_guide_3_content = document.querySelector('[data-faq-content="guide3"]'
 const faq_guide_4_content = document.querySelector('[data-faq-content="guide4"]');
 const faq_guide_5_content = document.querySelector('[data-faq-content="guide5"]');
 
+// Function to create links to Guide Overviews
+faq_guide_overview_links();
+function faq_guide_overview_links(){
+    let params = new URLSearchParams(window.location.search);
+    for (let x = 1; x <= 5; x++) {
+        if(params.get('guide-overview') == x){
+            new Modal(document.getElementById('modalGuide' + x)).show();
+            }
+    }
+}
+
+// Function to create links to Guide Tabs
+faq_guide_tabs_links();
+function faq_guide_tabs_links(){
+    let params = new URLSearchParams(window.location.search);
+    for (let x = 1; x <= 5; x++) {
+        if(params.get('guide-tab') == x){
+            new Tab(document.querySelector('button[data-bs-target="#guide' + x + '"]')).show()
+    }
+}}
+
 // Function to create accordion element
 function faq_create_accordion_element(id, questionContent, answerContent, footnotes) {
 
