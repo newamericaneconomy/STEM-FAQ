@@ -878,7 +878,7 @@ let faq_array = [
   {
     ID: 35,
     question:
-      "Can interested state or local government agencies submit letters supporting NIW petitions?",
+      "Can interested state or local government agencies submit letters supporting National Interest Waiver (NIW) petitions?",
     answer:
       "Yes, but we recommend providing additional documentation, since the standard is national interest, not state interest.",
     guide1: "",
@@ -905,7 +905,7 @@ let faq_array = [
     ID: 36,
     question: "Are NIW petitions limited to STEM degree holders?",
     answer:
-      "No. There is no such statement to that effect. The USCIS examples are illustrations only, and the guidance isn’t limited to STEM. The principles in the NIW guidance should apply beyond STEM fields, such as healthcare workers, entrepreneurs, etc.",
+      "No. There is no such statement to that effect. The USCIS examples are illustrations only. The principles in the NIW guidance should apply beyond STEM fields, such as healthcare workers, entrepreneurs, etc.",
     guide1: "",
     guide2: "",
     guide3: "",
@@ -954,9 +954,9 @@ let faq_array = [
   },
   {
     ID: 38,
-    question: "When will premium processing be implemented for NIW petitions?",
+    question: "Is premium processing available for NIW petitions?",
     answer:
-      "Congress has authorized USCIS to add premium processing (paid expedite) service for more types of filings for immigration benefits. For NIWs, the premium processing fee currently is $2,500 for 45-day initial decision and is only available for some older pending NIW petitions as USCIS clears backlogs in other categories. See <a href=https://www.uscis.gov/newsroom/alerts/uscis-to-implement-next-phase-of-premium-processing-for-certain-previously-filed-eb-1-and-eb-2-form>here</a> for more information. We expect that Premium Processing will be available for newly filed NIW petitions at some point in 2023. In the meantime, processing times for NIW petitions without premium processing have been declining steadily from the 2+ years in 2020-2021.",
+      "Yes. After phasing in the benefit, USCIS now accepts premium processing for all NIW petitions, whether newly filed or pending. For NIW petitions, the premium processing fee currently is $2,500 for 45-day initial decision. In the meantime, processing times for NIW petitions without premium processing have been declining steadily from the 2+ years in 2020-2021.",
     guide1: "",
     guide2: "",
     guide3: "",
@@ -982,7 +982,7 @@ let faq_array = [
     question:
       "How might federal ethics laws be relevant when requesting a letter from a government official in support of an NIW petition?",
     answer:
-      "The public-facing guidance at some agencies states that a government official cannot sign a letter in support of a visa petition, where a template was provided by the individual, even if the letter is not on letterhead and does not mention the author's title. For one example, see <a href=https://ethics.od.nih.gov/sites/default/files/topics/visa-support-2007.pdf>here</a>.\n\nThe relevant regulation is 5 C.F.R. § 2635.702(b), which prohibits a federal employee from creating the appearance of governmental sanction or endorsement of their or another’s personal activities. Given the guidance from some agencies, we suggest that providing a draft or template letter to the government official is not a best practice. We recognize that some agencies or nonprofits may draft general NIW template letters that list the author’s academic degrees, publications, and grant or project involvement. This type of template could also note that the field of research is a priority for the agency, perhaps citing any agency documents to that effect (such as noting that the research area has been a funding priority for X years and these projects were funded in the amount of $X). Each agency will decide whether the NIW support letter can be on agency letterhead or mention the author’s title. \n \nWhen submitting a letter which is not on agency letterhead to USCIS, the author’s bio or LinkedIn profile showing where the author works could be attached to confirm the author’s background.  \n \nThe government agency letter is not a recommendation letter; it is a statement of fact about the area of research described in the NIW petition. The goal is to show USCIS that the agency has an interest in the field. The letter can and will likely be quite short. Sometimes the letter may not mention the person for whom the NIW is being requested. Whether this would remove the support letter from the scope of 5 C.F.R. § 2635.702(b) is a decision for the in-house ethics counsel at the particular agency. We hope that over time, each STEM research funding agency will designate a point person to assist with NIW support letters and add public-facing policies.",
+      "The public-facing guidance at some agencies states that a government official cannot sign a letter in support of a visa petition, where a template was provided by the individual, even if the letter is not on letterhead and does not mention the author's title. For one example, see <a href=https://ethics.od.nih.gov/sites/default/files/topics/visa-support-2007.pdf>here</a>.\n<br><br>\nThe relevant regulation is 5 C.F.R. § 2635.702(b), which prohibits a federal employee from creating the appearance of governmental sanction or endorsement of their or another’s personal activities. Given the guidance from some agencies, we suggest that providing a draft or template letter to the government official is not a best practice. We recognize that some agencies or nonprofits may draft general NIW template letters that list the author’s academic degrees, publications, and grant or project involvement. This type of template could also note that the field of research is a priority for the agency, perhaps citing any agency documents to that effect (such as noting that the research area has been a funding priority for X years and these projects were funded in the amount of $X). Each agency will decide whether the NIW support letter can be on agency letterhead or mention the author’s title. \n <br><br>\nWhen submitting a letter which is not on agency letterhead to USCIS, the author’s bio or LinkedIn profile showing where the author works could be attached to confirm the author’s background.  \n <br><br>\nThe government agency letter is not a recommendation letter; it is a statement of fact about the area of research described in the NIW petition. The goal is to show USCIS that the agency has an interest in the field. The letter can and will likely be quite short. Sometimes the letter may not mention the person for whom the NIW is being requested. Whether this would remove the support letter from the scope of 5 C.F.R. § 2635.702(b) is a decision for the in-house ethics counsel at the particular agency. We hope that over time, each STEM research funding agency will designate a point person to assist with NIW support letters and add public-facing policies.",
     guide1: "",
     guide2: "",
     guide3: "",
@@ -1034,7 +1034,7 @@ let faq_array = [
     question:
       "Should an employer consider an NIW petition for sponsoring an employee in a STEM field?",
     answer:
-      "An employer who is prepared to sponsor an employee (or a prospective employee) in a STEM field to work in a job that requires an advanced degree should consider whether an NIW is feasible. Without an NIW, the employer would have to obtain a permanent labor certification from the Department of Labor before it could file an immigrant visa petition in the EB-2 category for advanced degree professionals or persons of exceptional ability. An employer who is considering sponsoring an employee (or prospective employee) in the immigrant visa category of Outstanding Professor or Researcher should consider whether the NIW category is a better fit. For example, a private employer may be concerned about the sufficiency of its documentation of “a department, division, or institute” with three full-time researchers and “documented accomplishments in an academic field,” as required for the Outstanding Professor or Researcher category. With the NIW, the employer can focus more on the employee’s accomplishments than on its structure and past achievements through other employees.",
+      "An employer who is prepared to sponsor an employee (or a prospective employee) in a STEM field to work in a job that requires an advanced degree should consider whether an NIW is feasible. Without an NIW, the employer would have to obtain a permanent labor certification from the Department of Labor before it could file an immigrant visa petition in the EB-2 category for advanced degree professionals or persons of exceptional ability. An employer who is considering sponsoring an employee (or prospective employee) in the immigrant visa category of Outstanding Professor or Researcher should consider whether the NIW category is a better fit. For example, a private employer may be concerned about the sufficiency of its documentation of “a department, division, or institute” with three full-time researchers and “documented accomplishments in an academic field,” as required for the Outstanding Professor or Researcher category. With the NIW, the employer can focus more on the employee’s (or prospective employee's) accomplishments than on its structure and past achievements through other employees.",
     guide1: "",
     guide2: "",
     guide3: "",
