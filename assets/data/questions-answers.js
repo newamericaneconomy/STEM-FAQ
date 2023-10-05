@@ -4,7 +4,7 @@ let faq_array = [
     question:
       "How can organizations engage in the J-1 Early Career STEM Research Initiative?",
     answer:
-      'In order for an employer to participate as a host, the employer would need to utilize the services of a <a href=https://j1visa.state.gov/programs/research-scholar/#program-sponsors>program sponsor designated by the Department of State</a> (DOS) or become a designated sponsor. In order for an employer or institution to act as a designated program sponsor, the entity would have to <a href=https://j1visa.state.gov/sponsors/become-a-sponsor/how-to-apply/" target=”_blank”>file an application for designation</a> and receive DOS approval.\n \nThe initiative encourages designated sponsors to use the available categories to sponsor more individuals at host companies to engage in science, technology, engineering, and mathematics activities, including STEM research. Much of the discussion of the initiative has been around the research scholar category, so that will be discussed in more detail here, but it is not the only option. The additional available categories include college and university students, professors, research scholars, short-term research scholars, interns, trainees, and specialists. \n  Most universities are designated already to act as a program sponsor in the J-1 research scholar category, and some have already set up internal procedures to place J-1 Early Career STEM researchers at host companies. Other types of entities (such as nonprofit exchange programs, private colleges, consortia of state community colleges, and corporations) also have J-1 research scholar designation or are considering applying. <a href=https://j1visa.state.gov/early-career-stem-research-initiative/#get-started>This website</a> lists some sponsors designated for research scholar (and other categories) that have expressed interest in being matched with hosts for this initiative. Host companies and participants are not limited to using organizations who have expressed interest to DOS, but rather can find their own program sponsors through local or research connections.',
+      'In order for an employer to participate as a host, the employer would need to utilize the services of a <a href="https://j1visa.state.gov/programs/research-scholar/#program-sponsors" target="_blank">program sponsor designated by the Department of State</a> (DOS) or become a designated sponsor. In order for an employer or institution to act as a designated program sponsor, the entity would have to <a href="https://j1visa.state.gov/sponsors/become-a-sponsor/how-to-apply/" target=”_blank”>file an application for designation</a> and receive DOS approval.\n \nThe initiative encourages designated sponsors to use the available categories to sponsor more individuals at host companies to engage in science, technology, engineering, and mathematics activities, including STEM research. Much of the discussion of the initiative has been around the research scholar category, so that will be discussed in more detail here, but it is not the only option. The additional available categories include college and university students, professors, research scholars, short-term research scholars, interns, trainees, and specialists. \n\n\u000bMost universities are designated already to act as a program sponsor in the J-1 research scholar category, and some have already set up internal procedures to place J-1 Early Career STEM researchers at host companies. Other types of entities (such as nonprofit exchange programs, private colleges, consortia of state community colleges, and corporations) also have J-1 research scholar designation or are considering applying. <a href="https://j1visa.state.gov/early-career-stem-research-initiative/#get-started" target="_blank">This website</a> lists some sponsors designated for research scholar (and other categories) that have expressed interest in being matched with hosts for this Initiative. Host companies and participants are not limited to using organizations who have expressed interest to DOS, but rather can find their own program sponsors through local or research connections.',
     guide1: "TRUE",
     guide2: "",
     guide3: "",
@@ -28,9 +28,9 @@ let faq_array = [
   {
     ID: 2,
     question:
-      "In order to host a J-1 participant, does an employer have to be designated by the Department of State",
+      "In order to host a J-1 participant, does an employer have to be designated by the Department of State?",
     answer:
-      "No, employers can use the services of an already designated program sponsor authorized to act as an “umbrella” organization for interested employers, such as <a href=https://j1visa.state.gov/programs/early-career-stem-research-initiative/#get-started%22>designated program sponsors that have expressed interest in the Early Career STEM Research Initiative.</a>  Host companies may also find opportunities or connections on their own, through their own networks.",
+      'No, employers can use the services of an already designated program sponsor, such as <a href="https://j1visa.state.gov/programs/early-career-stem-research-initiative/#get-started%22" target="_blank">designated program sponsors that have expressed interest in the Early Career STEM Research Initiative.</a>  Host companies may also find opportunities or connections on their own through their own networks.',
     guide1: "TRUE",
     guide2: "",
     guide3: "",
@@ -53,9 +53,9 @@ let faq_array = [
   },
   {
     ID: 3,
-    question: "What is the role of organizations?",
+    question: "What is the role of host companies?",
     answer:
-      "DOS invites prospective host companies and already-designated sponsors to consider the J-1 Early Career STEM Research Initiative. Many exchange programs, institutions of higher education, individuals, or host companies may already have the connections needed to explore the initiative. For example, a host company can discuss the initiative with a program sponsor, or an institution of higher education can discuss the initiative with local start-up companies. DOS also allows those interested to sign a “STEM Statement of Interest” and email a copy to JVisas@state.gov. These statements serve as a mechanism to recognize the Early Career STEM Research Initiative’s active partners and allow them to self-identify for participation. Neither host companies nor designated sponsors are required to sign up in this way—and they may find opportunities or connections on their own, through their own networks. \n\n \n\nAssociations (private, public, or nonprofit) may wish to partner with J-1 program sponsors or host companies. The associations can help make connections and support a common research, economic development, and/or exchange goal.",
+      "DOS invites prospective host companies and already designated sponsors to consider the J-1 Early Career STEM Research Initiative. Many exchange programs, institutions of higher education, individuals, or host companies may already have the connections needed to explore the Initiative. For example, a host company can discuss the Initiative with a program sponsor, or an institution of higher education can discuss the Initiative with local start-up companies. \n\nAssociations (private, public, or nonprofit) may wish to partner with J-1 program sponsors or host companies. The associations can help make connections and support a common research, economic development, and/or exchange goal. The Initiative was designed to support a wide variety of creative collaborations involving international exchange and STEM research, including applied and experimental research and development.",
     guide1: "TRUE",
     guide2: "",
     guide3: "",
@@ -80,7 +80,7 @@ let faq_array = [
     ID: 4,
     question: "What is the role of individuals?",
     answer:
-      "Any individual outside the United States with a university STEM degree who is coming to the United States to conduct, facilitate, or participate in research being conducted by a U.S. company might be able to participate in the Early Career STEM Research Initiative. No specific level of education or expertise is required. There may be situations in which noncitizens in the United States may qualify, such as individuals completing STEM post-docs at U.S. universities who are J-1 research scholars whose university can change the “site of activity” to a host company.",
+      "Any individual outside the United States with a university STEM degree who is coming to the United States to conduct, facilitate, or participate in research being conducted by a U.S. company might be able to benefit from the Early Career STEM Research Initiative. A variety of roles could qualify as supporting a company's STEM research, although performing administrative tasks is not permitted unless incidental. No specific level of education or expertise is required. There may be situations in which noncitizens already in the United States may qualify, such as individuals completing STEM postdoctoral programs at U.S. universities who are J-1 research scholars and have some of the five years of allotted time remaining.",
     guide1: "TRUE",
     guide2: "",
     guide3: "",
@@ -102,88 +102,10 @@ let faq_array = [
     __9: "",
   },
   {
-    ID: 5,
-    question:
-      "What is the process for employers once they fill out the “STEM Statement of Interest”?",
-    answer:
-      'In addition to independently discussing the J-1 Early Career STEM Research Initiative with colleagues at exchange program sponsors or institutions of higher education to explore collaboration, a host company could submit a STEM Statement of Interest, after which <a href=https://j1visa.state.gov/" target=”_blank”>BridgeUSA</a> will connect the host with a program sponsor. If the program sponsor determines that the host and the candidate meet the program requirements, then the program sponsor will provide a Statement of Eligibility (DS-2019) that allows the candidate to apply at the U.S. embassy in their country for an exchange visitor (J-1) visa. If the candidate is an academic who has previously traveled to the United States, they may not need an in-person interview. To learn more about BridgeUSA, visit the <a href=https://j1visa.state.gov/>DOS website</a> or see Additional Resources.',
-    guide1: "TRUE",
-    guide2: "",
-    guide3: "",
-    guide4: "",
-    guide5: "",
-    institutions: "TRUE",
-    employers: "TRUE",
-    individuals: "",
-    footnotes: "",
-    "": "",
-    __1: "",
-    __2: "",
-    __3: "",
-    __4: "",
-    __5: "",
-    __6: "",
-    __7: "",
-    __8: "",
-    __9: "",
-  },
-  {
-    ID: 6,
-    question:
-      "Will it be made clear that DOS is not vetting specific J-1 programs, but merely making a list publicly available?",
-    answer:
-      "A statement of interest isn’t required (and such statements will not be made public), but DOS hopes companies will use it to match people with jobs. DOS hopes to share a list of companies that might be interested with all designated J-1 sponsors. That doesn’t indicate which companies are working with which sponsors. Program sponsors may do their own presentations about this program with companies in their networks. The statement is only meant to help DOS make a connection with companies that aren’t already connected with a sponsor.",
-    guide1: "TRUE",
-    guide2: "",
-    guide3: "",
-    guide4: "",
-    guide5: "",
-    institutions: "TRUE",
-    employers: "TRUE",
-    individuals: "",
-    footnotes: "",
-    "": "",
-    __1: "",
-    __2: "",
-    __3: "",
-    __4: "",
-    __5: "",
-    __6: "",
-    __7: "",
-    __8: "",
-    __9: "",
-  },
-  {
-    ID: 7,
-    question:
-      "Most J-1 program sponsor organizations will be hesitant to share their client list for public viewing and will likely make connections on their own. Can a program sponsor utilize the J-1 option without in effect “registering” with BridgeUSA to be matched?",
-    answer:
-      "Yes, sponsors or host companies are not required to sign up or submit statements of interest.  The goal of the statements of interest is to allow a mechanism for sponsors and host companies to find partners to engage in the J-1 Early Career STEM Initiative. Sponsors and host companies can also participate fully by making their own connections, without going through the statement of interest process.",
-    guide1: "TRUE",
-    guide2: "",
-    guide3: "",
-    guide4: "",
-    guide5: "",
-    institutions: "TRUE",
-    employers: "TRUE",
-    individuals: "",
-    footnotes: "",
-    "": "",
-    __1: "",
-    __2: "",
-    __3: "",
-    __4: "",
-    __5: "",
-    __6: "",
-    __7: "",
-    __8: "",
-    __9: "",
-  },
-  {
     ID: 8,
     question: "Is there a business size in mind for this program?",
     answer:
-      "No, there are no restrictions on business size. The Biden administration is focused on engaging small and medium-sized enterprises (SMEs) in this initiative because SMEs are often less aware of these types of programs and opportunities. Larger companies tend to have greater internal capacity and resources to support global mobility, whereas smaller businesses often do not have in-house expertise.",
+      "No, there are no restrictions on business size. The Biden administration is focused on engaging small and medium-sized enterprises (SMEs) in this initiative because SMEs are often less aware of these types of programs and opportunities. Larger companies tend to have greater internal capacity and resources to support global mobility, whereas smaller businesses may not.",
     guide1: "TRUE",
     guide2: "",
     guide3: "",
@@ -235,7 +157,7 @@ let faq_array = [
     question:
       "Where can I find the current list of sponsors? Am I limited to selecting a sponsor from the list?",
     answer:
-      "The list can be found on the BridgeUSA site <a href=https://j1visa.state.gov/participants/how-to-apply/sponsor-search/?program=%26%2332%3B&state=any” target=”_blank”>here</a>. Host companies and program participants are not limited to self-identified sponsors. Host companies may also reach out to create a working relationship with a community college or a university that has a J-1 scholar designation.",
+      'DOS no longer has an option for program sponsors to submit a Statement of Interest. However, some of the interested sponsors are listed on the <a href="https://j1visa.state.gov/programs/early-career-stem-research-initiative/#get-started" target="_blank">BridgeUSA site</a>. Host companies and program participants are not limited to self-identified sponsors and relationships are now developed through individual collaborations and introductions. Host companies may also reach out to create a working relationship with a community college or a university that has a J-1 research scholar designation.',
     guide1: "TRUE",
     guide2: "",
     guide3: "",
@@ -260,7 +182,7 @@ let faq_array = [
     ID: 11,
     question: "Can chambers serve as sponsors and their members as hosts?",
     answer:
-      "If a chamber or association is interested and has the experience to qualify as a sponsor, yes. But the best role for a chamber often is to communicate to its members the opportunity to host exchange visitors. Another possibility for chambers is to help form a consortium of interested company members that bands together and works with a single designated sponsor to bring research scholars to one particular place that serves as an innovation hub. This approach takes advantage of the fact that an established J-1 research scholar exchange program is most likely to have the expertise and personnel to support J-1 Early Career STEM researchers. Last, local business associations may choose to provide grants to J-1 program sponsors to build capacity in the area.",
+      "If a chamber or association is interested and has the experience to qualify as a sponsor, yes. But the best role for a chamber may be to communicate to its members the opportunity to host exchange visitors. Another possibility for chambers is to help form a consortium of interested company members that bands together and works with a single designated sponsor to bring research scholars to one particular place that serves as an innovation hub. This approach takes advantage of the fact that an established J-1 research scholar exchange program is most likely to have the expertise and personnel to support J-1 Early Career STEM researchers. Last, local business associations may choose to provide grants to J-1 program sponsors to build capacity in the area.",
     guide1: "TRUE",
     guide2: "",
     guide3: "",
@@ -312,7 +234,7 @@ let faq_array = [
     question:
       "Is the requirement to return home for two years in place for this program?",
     answer:
-      "Yes, but not for everyone. In some cases, there is a two-year return home residency requirement for J-1 visa recipients who have U.S. or other government funding, or if they are coming from a country where the research or training is considered a “critical need” for the home country’s development. Also, if someone is already in the United States as a J-1 research scholar doing a post-doctoral fellowship (NOT a J-1 student), they don’t need to return home for two years.",
+      "Yes as to the program but not as to all program participants. There is a two-year return home residency requirement for J-1 visa recipients in the Early Career STEM Research Initiative who have U.S. or other government funding, or if they are coming from a country where the research or training develops skills considered “clearly required” for the home country’s development. Also, if someone is already in the United States as a J-1 research scholar doing a postdoctoral fellowship (NOT a J-1 student), they don’t need to return home for two years before transferring the site of activity to a host company.",
     guide1: "TRUE",
     guide2: "",
     guide3: "",
@@ -362,7 +284,7 @@ let faq_array = [
   {
     ID: 15,
     question:
-      "If a university has a J-1 program but is not authorized as a sponsor in all categories, can it put forth a plan to the State Dept. for redesignation?",
+      "If a university has a J-1 program but is not authorized as a sponsor in all categories, can it put forth a plan to the State Dept. to add one or more categories?",
     answer: "Yes.",
     guide1: "TRUE",
     guide2: "",
@@ -387,7 +309,7 @@ let faq_array = [
   {
     ID: 16,
     question:
-      "There are lengthy visa processing backlogs at U.S. embassies around the world, and it can take up to a year to get an appointment. How is that managed in this process?",
+      "There have been visa processing backlogs at U.S. embassies around the world. How is that managed in this process?",
     answer:
       "Consul-level implementation of this program will be case-specific since different consulates are adjudicating visas differently based on the continuing impact of the pandemic, pent up demand at particular posts, and special circumstances increasing third-country national appointment requests at certain posts. Some J-1 research scholars have been eligible for an interview waiver if they have already used another visa category (meaning their biometric information is already in the system), and the U.S. embassy or consulate where they apply has implemented this waiver process. Visa applicants should check the DOS website for general information about the agency’s current interview waiver policy for J-1s. If the policy remains in effect, they should then check the website for the U.S. embassy or consulate where they will apply to learn (1) if interview waiver is offered, and, if available, (2) the procedure for interview waiver, which is not a standardized process.",
     guide1: "TRUE",
@@ -413,9 +335,35 @@ let faq_array = [
   {
     ID: 17,
     question:
+      "What specific role might community colleges play in the J-1 Early Career STEM Initiative?",
+    answer:
+      "Community colleges have a particularly valuable role in STEM training and in cultural exchange, and often have strong collaborations with local STEM businesses. DOS has FAQs on its initiative website that address the different roles available to community colleges.",
+    guide1: "TRUE",
+    guide2: "",
+    guide3: "",
+    guide4: "",
+    guide5: "",
+    institutions: "TRUE",
+    employers: "",
+    individuals: "",
+    footnotes: "",
+    "": "",
+    __1: "",
+    __2: "",
+    __3: "",
+    __4: "",
+    __5: "",
+    __6: "",
+    __7: "",
+    __8: "",
+    __9: "",
+  },
+  {
+    ID: 17,
+    question:
       "What qualifies as “research” for the purposes of this program and how is it distinguished from work that would be typically done on an H-1B visa?",
     answer:
-      "This program is about cultural exchange, while at the same time research exchange visitors can participate in work that supports the mission of the host company and its commercial objectives. The work must be framed around doing research and gaining knowledge, even if it is product- or profit-oriented. The DOS FAQs clarify that: \n\n \n\n“A company, organization, or similar entity may host a J-1 Research Scholar, as long as it can ensure that program requirements are being met, the field of research aligns with the prospective exchange visitor’s area of study, and the host organization maintains the ability, personnel, and resources to achieve the goals and objectives of the Research Scholar’s program. Sponsors and host organizations have a shared responsibility to ensure whether a host organization will be a good match for an exchange visitor (e.g., determining that the necessary infrastructure is in place to host and support that exchange visitor during the program).” \n\n \n\nCompanies may host a J-1 Research Scholar without having a separate physical space devoted to research or even a separate research division. DOS states in its updated FAQs: “A STEM business does not have to have an independent research division to qualify as a host organization.”  But DOS also has clarified in its FAQs that host companies must be STEM-focused under this initiative because the agency requires program sponsors to place Research Scholars at entities with certain characteristics. The DOS offers the example that a restaurant cannot be a host to an environmental scientist researching green energy solutions. \n\n \n\nWe also believe that non-published research, such as proprietary applied research, is within the intent of this initiative. Less clear is applied research for clients without an overall research agenda. For example, a manufacturing company may want to hire an industrial engineer or an environmental scientist to research green energy solutions as it applies to their manufacturing processes. Or an architect working for an environmental consulting group may research design solutions to LEED (Leadership in Energy and Environmental Design) buildings. Pending further guidance, we recommend not using the J-1 program for applied research for clients in the absence of an overall research agenda. \n\n \n\nTo summarize, host companies must have business activities that rely on a workforce in one or more science, engineering, technology, or mathematics disciplines, and where STEM research related to their business activities takes place. There is no requirement that a business have a separate research building or research division to qualify.",
+      "This program is about cultural exchange, while at the same time research exchange visitors can participate in work that supports the mission of the host company and its commercial objectives. The work must be framed around doing research and gaining knowledge, even if it is product- or profit-oriented. The DOS FAQs clarify that: \n\n \n\n“A company, organization, or similar entity may host a J-1 Research Scholar, as long as it can ensure that program requirements are being met, the field of research aligns with the prospective exchange visitor’s area of study, and the host organization maintains the ability, personnel, and resources to achieve the goals and objectives of the Research Scholar’s program. Sponsors and host organizations have a shared responsibility to ensure whether a host organization will be a good match for an exchange visitor (e.g., determining that the necessary infrastructure is in place to host and support that exchange visitor during the program).” \n\n \n\nCompanies may host a J-1 Research Scholar without having a separate physical space devoted to research or even a separate research division. DOS states in its updated FAQs: “A STEM business does not have to have an independent research division to qualify as a host organization.”  But DOS also has clarified in its FAQs that host companies must be STEM-focused under this initiative. The DOS offers the example that a restaurant cannot be a host to an environmental scientist researching green energy solutions. \n\n \n\nWe also believe that non-published research, such as proprietary applied research, is within the intent of this initiative. Less clear is applied research for clients without an overall research agenda. For example, a manufacturing company may want to hire an industrial engineer or an environmental scientist to research green energy solutions as it applies to their manufacturing processes. Or an architect working for an environmental consulting group may research design solutions to LEED (Leadership in Energy and Environmental Design) buildings. Pending further guidance, we recommend not using the J-1 program for applied research for clients in the absence of an overall research agenda for the host company. \n\n \n\nTo summarize, host companies must have business activities that rely on a workforce in one or more science, engineering, technology, or mathematics disciplines, and where STEM research related to their business activities takes place. There is no requirement that a business have a separate research building or research division to qualify.",
     guide1: "TRUE",
     guide2: "",
     guide3: "",
@@ -439,7 +387,7 @@ let faq_array = [
   {
     ID: 18,
     question:
-      "Given the shortage of international student and scholar advisers as we emerge from the pandemic, would DOS consider expediting applications for program sponsors to add the J-1 early career STEM research scholar category?",
+      "Given the interest in adding or retaining a global perspective to science and engineering resesarch conducted by companies, would DOS consider expediting applications for program sponsors to add the J-1 early career STEM research scholar category?",
     answer:
       "DOS has not offered to expedite applications for adding a category or redesignation. However, STEM initiatives are a stated priority for the Biden administration, so we recommend that any interested program sponsor apply, reach out to DOS with any questions in advance, and file an application that closely tracks the DOS website instructions to simplify the review process.",
     guide1: "TRUE",
@@ -467,7 +415,7 @@ let faq_array = [
     question:
       "In the J-1 early career STEM initiative, may a program sponsor charge a fee for sponsorship to the host company?",
     answer:
-      "Some universities have a fee-for-service model for their international offices, and some nonprofit program sponsors charge fees for other J-1 categories such as trainee. DOS has confirmed at various engagements in 2022 that program sponsors can charge an appropriate fee.",
+      'Some universities have a fee-for-service model for their international offices, and some nonprofit program sponsors charge fees for other J-1 categories such as trainee. DOS confirmed at various engagements in 2022 that program sponsors can charge an appropriate fee. \n\nA DOS FAQ also clarifies that consortiums, such as a chamber of commerce or industry trade group, could provide funding by "creating its own hub with an existing designated sponsor.',
     guide1: "TRUE",
     guide2: "",
     guide3: "",
@@ -545,7 +493,7 @@ let faq_array = [
     question:
       "Could a government entity sponsor an early career J-1 research scholar to work in industry at a research lab?",
     answer:
-      "Yes. However, because of the government funding, the J-1 exchange visitor might be subject to the two-year home residence requirement of INA § 212(e).",
+      "Yes, in theory, especially if the company is conducting research in collaboration with the government. However, because of the government funding of the exchange program, the J-1 exchange visitor would be subject to the two-year home residence requirement of INA § 212(e), and the government funding component may make it unlikely that a government lab would sponsor an individual to be hosted by a company.",
     guide1: "TRUE",
     guide2: "",
     guide3: "",
@@ -569,9 +517,9 @@ let faq_array = [
   {
     ID: 23,
     question:
-      "Must a J-1 exchange visitor file with USCIS for approval or travel to a U.S. consulate abroad for a visa interview if transferring within the J-1 research scholar category from a postdoctoral fellowship to a host company?",
+      "If transferring within the J-1 research scholar category from a postdoctoral fellowship to a host company, may a J-1 exchange visitor file with U.S. Citizenship and Immigration Services for approval or are they required to travel to a U.S. consulate abroad for a visa interview?",
     answer:
-      "No. A J-1 exchange visitor already in the research scholar category can ask for a change of the site of activity. An I-539 application or travel to a U.S. consulate is not needed.",
+      "A J-1 exchange visitor already in the United States in the research scholar category can ask for a change of the site of activity. An I-539 application with USCIS or travel to a U.S. consulate is not needed.",
     guide1: "TRUE",
     guide2: "",
     guide3: "",
@@ -749,7 +697,7 @@ let faq_array = [
   {
     ID: 30,
     question:
-      'We are planning to focus our J-1 program on companies that are either in our county or related to a college or university in our county. Given that we will have some actual knowledge of the company, is a zoom "site visit" with the host company acceptable, rather than in-person site visits?',
+      'We are planning to focus our J-1 program on companies that are either in our county or related to a college or university in our county. Given that we will have some actual knowledge of the company, is a Zoom "site visit" with the host company acceptable, rather than in-person site visits?',
     answer:
       "While DOS recommends in-person site visits at least for the first J-1 a company will host, this is not a requirement. The J-1 program sponsor must ensure that the host company offers a bona fide research opportunity and provides a cross-cultural experience in compliance with the J-1 regulations.",
     guide1: "TRUE",
@@ -931,7 +879,7 @@ let faq_array = [
     question:
       "For those with NIW petitions filed, does USCIS consider an expedite for I-485 adjustment of status applications of a grant awarded that requires permanent residence to accept?",
     answer:
-      "Most grants allow the research scholar to apply while a green card application is pending. There is no guidance specifically on this, but we hope that USCIS will consider an expedite request if there is a risk of losing the ability to participate in a U.S. government grant. The expedite criteria are available on <a href=https://www.uscis.gov/forms/filing-guidance/how-to-make-an-expedite-request>USCIS’ website</a>. Note that USCIS probably will not be able to expedite an I-485 unless the applicant has reached the final action date and has submitted their medical exams (meaning the case is ready for final adjudication).",
+      'Most grants allow the research scholar to apply while a green card application is pending. There is no guidance specifically on this, but we hope that USCIS will consider an expedite request if there is a risk of losing the ability to participate in a U.S. government grant. The expedite criteria are available on <a href="https://www.uscis.gov/forms/filing-guidance/how-to-make-an-expedite-request" target="_blank">USCIS’ website</a>. Note that USCIS probably will not be able to expedite an I-485 unless the applicant has reached the final action date and has submitted their medical exams (meaning the case is ready for final adjudication).',
     guide1: "",
     guide2: "",
     guide3: "",
@@ -982,7 +930,7 @@ let faq_array = [
     question:
       "How might federal ethics laws be relevant when requesting a letter from a government official in support of an NIW petition?",
     answer:
-      "The public-facing guidance at some agencies states that a government official cannot sign a letter in support of a visa petition, where a template was provided by the individual, even if the letter is not on letterhead and does not mention the author's title. For one example, see <a href=https://ethics.od.nih.gov/sites/default/files/topics/visa-support-2007.pdf>here</a>.\n<br><br>\nThe relevant regulation is 5 C.F.R. § 2635.702(b), which prohibits a federal employee from creating the appearance of governmental sanction or endorsement of their or another’s personal activities. Given the guidance from some agencies, we suggest that providing a draft or template letter to the government official is not a best practice. We recognize that some agencies or nonprofits may draft general NIW template letters that list the author’s academic degrees, publications, and grant or project involvement. This type of template could also note that the field of research is a priority for the agency, perhaps citing any agency documents to that effect (such as noting that the research area has been a funding priority for X years and these projects were funded in the amount of $X). Each agency will decide whether the NIW support letter can be on agency letterhead or mention the author’s title. \n <br><br>\nWhen submitting a letter which is not on agency letterhead to USCIS, the author’s bio or LinkedIn profile showing where the author works could be attached to confirm the author’s background.  \n <br><br>\nThe government agency letter is not a recommendation letter; it is a statement of fact about the area of research described in the NIW petition. The goal is to show USCIS that the agency has an interest in the field. The letter can and will likely be quite short. Sometimes the letter may not mention the person for whom the NIW is being requested. Whether this would remove the support letter from the scope of 5 C.F.R. § 2635.702(b) is a decision for the in-house ethics counsel at the particular agency. We hope that over time, each STEM research funding agency will designate a point person to assist with NIW support letters and add public-facing policies.",
+      'The public-facing guidance at some agencies states that a government official cannot sign a letter in support of a visa petition, where a template was provided by the individual, even if the letter is not on letterhead and does not mention the author\'s title. For one example, see <a href="https://ethics.od.nih.gov/sites/default/files/topics/visa-support-2007.pdf">here</a>.\n<br><br>\nThe relevant regulation is 5 C.F.R. § 2635.702(b), which prohibits a federal employee from creating the appearance of governmental sanction or endorsement of their or another’s personal activities. Given the guidance from some agencies, we suggest that providing a draft or template letter to the government official is not a best practice. We recognize that some agencies or nonprofits may draft general NIW template letters that list the author’s academic degrees, publications, and grant or project involvement. This type of template could also note that the field of research is a priority for the agency, perhaps citing any agency documents to that effect (such as noting that the research area has been a funding priority for X years and these projects were funded in the amount of $X). Each agency will decide whether the NIW support letter can be on agency letterhead or mention the author’s title. \n <br><br>\nWhen submitting a letter which is not on agency letterhead to USCIS, the author’s bio or LinkedIn profile showing where the author works could be attached to confirm the author’s background.  \n <br><br>\nThe government agency letter is not a recommendation letter; it is a statement of fact about the area of research described in the NIW petition. The goal is to show USCIS that the agency has an interest in the field. The letter can and will likely be quite short. Sometimes the letter may not mention the person for whom the NIW is being requested. Whether this would remove the support letter from the scope of 5 C.F.R. § 2635.702(b) is a decision for the in-house ethics counsel at the particular agency. We hope that over time, each STEM research funding agency will designate a point person to assist with NIW support letters and add public-facing policies.',
     guide1: "",
     guide2: "",
     guide3: "",
@@ -1008,7 +956,7 @@ let faq_array = [
     question:
       "What is a quasi-governmental agency for the purpose of an NIW support letter?",
     answer:
-      "The Congressional Record Service discusses quasi-government agencies as part of <a href=https://sgp.fas.org/crs/misc/RL30533.pdf>this report</a>.",
+      'The Congressional Record Service discusses quasi-government agencies as part of <a href="https://sgp.fas.org/crs/misc/RL30533.pdf" target="_blank">this report</a>.',
     guide1: "",
     guide2: "",
     guide3: "",
