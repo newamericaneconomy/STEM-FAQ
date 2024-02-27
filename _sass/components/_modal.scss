@@ -10,6 +10,13 @@
 
   &-body {
     font-size: 1.125rem;
+    ul {
+      margin-top: 1rem !important;
+      padding-left: 2.5rem;
+    }
+    li {
+      font-size: 1.125rem !important;
+    }
   }
 
   &-endnotes {
